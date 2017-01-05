@@ -1,0 +1,9 @@
+<%= form_tag('/new') do %>
+  <%= label_tag 'Username' %>
+  <%= text_field_tag 'user[name]' %>
+  <%= label_tag 'Password' %>
+  <%= text_field_tag 'user[password]' %>
+  <%= label_tag 'Password Confirmation' %>
+  <%= text_field_tag 'user[password_confirmation]' %>
+  <%= submit_tag 'Sign Up' %>
+<% end %>
